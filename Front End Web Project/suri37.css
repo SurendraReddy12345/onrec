@@ -1,0 +1,40 @@
+body
+{
+    background-color:dimgrey;
+}
+table,th, td {
+    border: 2px solid darkorange;
+    border-collapse: collapse;
+    background-color: white;
+}
+th, td {
+    padding:7px;
+    text-decoration:center;
+    text-align: center;
+}
+h1
+{
+    color:aliceblue;
+    text-align: center;
+}
+input[type="submit"]
+{
+    background:none;
+	display:block;
+	margin:2px auto;
+	text-align:center;
+	border:4px solid darkorange;
+    text-align: center;
+    outline:none;
+    color:aliceblue;
+    border-radius: 25px;
+    background-color: darkorange;
+}
+a
+{
+    text-decoration: none;
+}
+p
+{
+    color: white;
+}

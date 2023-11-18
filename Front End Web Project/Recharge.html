@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="suri31.css">
+    </head>
+    <body>
+        <div class="nani">
+            <p>Mobile Recharge</p>
+            <form onsubmit="validate()">
+                <select type="dropdown1" required>
+                    <option value="select" selected>Select</option>
+                    <option value="Prepaid">Prepaid</option>
+                    <option value="Postpaid">Postpaid</option>
+                </select>
+                <input type="text" placeholder="Mobile Number" name="sudheer" pattern="^\d{4}-\d{3}-\d{4}$" required>
+                <select type="dropdown" required>
+                    <option value="select" selected>Select</option>
+                    <option value="Aitel">Airtel</option>
+                    <option value="Jio">Jio</option>
+                    <option value="VI">VI</option>
+                </select>
+                <input type="text"  placeholder="Enter Amount" required>
+                <input type="submit" onclick="submit()" value="Proceed to Recharge">
+            </form>
+        </div>
+        <a href="Mobile.html">Plans</a>
+    </body>
+</html>
